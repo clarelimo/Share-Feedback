@@ -1,0 +1,11 @@
+main{
+    display: flex;
+    width: 100%;
+}
+.about{
+    width: 50%;
+}
+.work{
+    width: 50%;
+    background: #F2F3F7;
+}
