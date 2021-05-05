@@ -1,0 +1,30 @@
+.container{
+    margin: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;                   
+}
+
+.description{
+    text-align: center;  
+}
+.background img{
+    width: 450px;
+    height: 400px;   
+} 
+
+.process{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #F2F3F7;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.client h1, .tester h1, .description h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
