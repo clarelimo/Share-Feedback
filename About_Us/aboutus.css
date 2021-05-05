@@ -1,0 +1,82 @@
+.head{
+    text-align: center;
+    padding: 10px;
+    margin-right: 25em;
+    margin-left: 25em;
+    background-color: whitesmoke;
+}
+
+main{
+    margin-top: 110px;
+}
+p{
+    font-size: x-large;
+}
+
+#titlee{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.storyone{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.storytwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#history{
+    padding-bottom: 50px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #9ae8e8;
+    width: 400px;
+}
+
+#commitment{
+    padding-bottom: 50px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #6fec89;
+    width: 400px;
+}
+
+#ourwork{
+    padding-bottom: 50px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #9ae8e8;
+    width: 400px;
+}
+
+#location{
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #6fec89;
+    width: 400px;
+}
+
+#resources{
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #9ae8e8;
+    width: 400px;
+}
+
+#careers{
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 0;
+    text-align: center;
+    background-color: #6fec89;
+    width: 400px;
+}
+
