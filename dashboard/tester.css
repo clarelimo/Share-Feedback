@@ -9,3 +9,21 @@ main{
     width: 50%;
     background: #F2F3F7;
 }
+.tester-img img{
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    left: 20px;
+    top: 150px;
+    border-radius: 95.5px;
+}
+.name{
+    position: absolute;
+    width: 320px;
+    height: 139px;
+    left: 267px;
+    top: 189px;
+    line-height: 2;
+    font-size: 24px;
+    font-weight: normal;
+}
