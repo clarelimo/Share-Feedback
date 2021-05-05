@@ -1,14 +1,18 @@
 main{
     display: flex;
     width: 100%;
+    height: 100vh;
 }
 .about{
     width: 50%;
     display: flex;
 }
 .work{
-    width: 50%;
+    width: 70%;
     background: #F2F3F7;
+    position: absolute;
+    box-sizing: border-box;
+    
 }
 .tester-img img{
     position: absolute;
@@ -39,4 +43,29 @@ main{
     font-weight: normal;
     font-size: 30px;
     line-height: 42px;
+}
+.graph{
+    width:100%;
+    background-color: #F2F3F7;
+}
+.graph img{
+    position: absolute;
+    width: 1350px;
+    height: 600px;
+    left: 570px;
+    top: 55px;
+    bottom: 100xp;
+}
+.orders{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: absolute;
+    width: 92%;
+    height: 450px;
+    left: 657px;
+    top: 450px;
+    padding: 50px;
+    background: #F2F3F7;
+    border-radius: 2%;
 }
