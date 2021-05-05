@@ -4,6 +4,7 @@ main{
 }
 .about{
     width: 50%;
+    display: flex;
 }
 .work{
     width: 50%;
@@ -26,4 +27,16 @@ main{
     line-height: 2;
     font-size: 24px;
     font-weight: normal;
+}
+.bio{
+    position: absolute;
+    width: 30%;
+    left: 23px;
+    top: 446px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 42px;
 }
