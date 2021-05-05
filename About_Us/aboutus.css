@@ -4,11 +4,9 @@
     margin-right: 25em;
     margin-left: 25em;
     background-color: whitesmoke;
+    margin-top: 105px;
 }
 
-main{
-    margin-top: 110px;
-}
 p{
     font-size: x-large;
 }
@@ -20,11 +18,6 @@ p{
 }
 
 .storyone{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.storytwo{
     display: flex;
     justify-content: space-evenly;
 }
@@ -41,7 +34,7 @@ p{
     padding-bottom: 50px;
     padding-right: 0;
     text-align: center;
-    background-color: #6fec89;
+    background-color: #9ae8e8;
     width: 400px;
 }
 
@@ -53,30 +46,10 @@ p{
     width: 400px;
 }
 
-#location{
-    margin-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 0;
-    text-align: center;
-    background-color: #6fec89;
-    width: 400px;
-}
-
-#resources{
-    margin-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 0;
-    text-align: center;
-    background-color: #9ae8e8;
-    width: 400px;
-}
-
 #careers{
-    margin-top: 20px;
-    padding-bottom: 40px;
-    padding-right: 0;
     text-align: center;
-    background-color: #6fec89;
-    width: 400px;
+    margin: 50px 200px 0 155px;
+    padding: 10px;
+    background-color: whitesmoke;
 }
 
