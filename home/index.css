@@ -1,13 +1,15 @@
 .container{
-    margin: 20px; 
+    margin: 20px;  
     display: flex;
     justify-content: space-between;
-    align-items: center;                   
+    align-items: center;                 
 }
 
 .description{
-    text-align: center;  
+    text-align: center; 
+    margin: 50px auto; 
 }
+
 .background img{
     width: 450px;
     height: 400px;   
@@ -16,21 +18,17 @@
 .process{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
-    background-color: rgb(150, 144, 144);
-    border-radius: 5%;
+    margin: 100px auto;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
     padding: 20px;
+    
 }
 
 .client h1, .tester h1, .description h1{
     text-align: center;
     padding-bottom: 20px;
 
-}
-body{
-    background-color: rgb(150, 144, 144);
-    background-image: url(bg1.jpeg);
-    background-size: cover;
 }
 
 
