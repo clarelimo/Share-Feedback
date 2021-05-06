@@ -36,7 +36,57 @@ nav a:hover{
     top: 4px;
     border-radius: 50px;
 }
-footer{
+
+/* Styling Login page*/
+.Log-in{
+    display: none;
+    width: 491px;
+    height: 736px;
+    top: 144px;
+    background-color: #3DB2C4;
+    border-radius: 20px;
+     
+}
+input {
+    outline: none;
+    display: block;
+    width: 20%;
+    border: 1px solid darken($white, 18%);
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    font-weight: 400;
+    @include transition(.3s ease);
+    &:hover {
+      background: darken($accent, 15%);
+    
+}
+
+
+/* Styling sign up page*/
+.Create-account {
+    display: none;
+    width: 491px;
+    height: 736px;
+    top: 144px;
+    background-color: #3DB2C4;
+    border-radius: 20px;
+     
+}
+input {
+    outline: none;
+    display: block;
+    width: 20%;
+    border: 1px solid darken($white, 18%);
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    font-weight: 400;
+    @include transition(.3s ease);
+    &:hover {
+      background: darken($accent, 15%);
+    
+}
+
+.footer{
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -49,3 +99,4 @@ footer{
     top: 900px;
     background: #C3E0EC;
 }
+
