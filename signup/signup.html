@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="signup.css">
+    <script src="main.js"></script>
     <title>Sign Up</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="./images/sf-logo.jpeg" alt="">
+            <img src="./images/logo.jpeg" alt="">
         </div>
         <nav>
             <a href="index.html">Home</a>
@@ -22,54 +23,60 @@
         </nav>
     </header>
     <main>
-        <div class="tester">
-            <form>
-                <div class="form-control">
-                     <label>Name</label>
-                     <input type="text" id="name" name="name" placeholder="Enter your name">
+        <div class="wrapper">
+            <div class="title-text">
+                <div class="title client">Tester Form</div>
+                <div class="title client">Client Form</div>
+                <div class="slide-tab"></div>
+            </div>
+            <div class="form-container">
+                <div class="form-inner">
+                    <form action="#" class="tester">
+                        <span id="success"></span>
+                        <div class="form-control">
+                             <label>Name</label>
+                             <input type="text" id="uname" name="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-control">
+                            <label>Password</label>
+                            <input type="password" name="testerpassword" id="testerpassword" placeholder="Enter your password" >
+                       </div>
+                        <div class="form-control">
+                             <label>Age</label>
+                             <input type="number" name="age" id="age" placeholder="Enter your age">
+                        </div>
+                        <div class="form-control">
+                             <label>Location</label>
+                             <input type="text" name="location" id="location" placeholder="Enter your location">
+                        </div>
+                        <div class="form-control">
+                             <label>Specialty</label>
+                             <input type="text" name="specialty" id="specialty" placeholder="Enter your specialty">
+                        </div>
+                        <div class="form-control">
+                             <label>Gender</label>
+                             <select id="Gender">
+                                 <option value="f">Female</option>
+                                 <option value="m">Male</option>
+                             </select>
+                        </div>
+                        <div class="form-control">
+                         <label>Category</label>
+                             <select id="category">
+                                 <option value="technology">Technology</option>
+                                 <option value="cosmetics">Cosmetics and Toiletries</option>
+                                 <option value="food">Food and Drinks</option>
+                                 <option value="books">Books and Magazines</option>
+                                 <option value="clothes">Clothing and Footware</option>
+                             </select>
+                        </div>
+                        <div class="form-control">
+                             <button type="submit" id="clientbtn" onclick="login()">Submit</button>
+                        </div>                 
+                    </form>
                 </div>
-                <div class="form-control">
-                     <label>Age</label>
-                     <input type="number" name="age" id="age" placeholder="Enter your age">
-                </div>
-                <div class="form-control">
-                     <label>Location</label>
-                     <input type="text" name="location" id="location" placeholder="Enter your location">
-                </div>
-                <div class="form-control">
-                     <label>Specialty</label>
-                     <input type="text" name="specialty" id="specialty" placeholder="Enter your specialty">
-                </div>
-                <div class="form-control">
-                     <label>Gender</label>
-                     <select id="Gender">
-                         <option value="f">Female</option>
-                         <option value="m">Male</option>
-                     </select>
-                </div>
-                <div class="form-control">
-                    <label>Account Type</label>
-                    <select id="Client">
-                        <option value="f">Tester</option>
-                        <option value="m">Client</option>
-                    </select>
-               </div>
-                <div class="form-control">
-                 <label>Category</label>
-                     <select id="category">
-                         <option value="technology">Technology</option>
-                         <option value="cosmetics">Cosmetics and Toiletries</option>
-                         <option value="food">Food and Drinks</option>
-                         <option value="books">Books and Magazines</option>
-                         <option value="clothes">Clothing and Footware</option>
-                     </select>
-                </div>
-                <div class="form-control">
-                     <button type="submit" id="btn">Submit</button>
-                     <button>Have an account?</button>
-                </div>
-            </form>
-        </div>
+            </div>           
+        </div> 
     </main>
     <footer>
         <div class="contact">
