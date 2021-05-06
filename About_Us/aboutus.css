@@ -20,6 +20,7 @@ p{
 .storyone{
     display: flex;
     justify-content: space-evenly;
+    background-color: whitesmoke;
 }
 
 #history{
@@ -53,3 +54,8 @@ p{
     background-color: whitesmoke;
 }
 
+h3{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
