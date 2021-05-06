@@ -21,10 +21,14 @@ main{
     margin-bottom: 5px;
     padding-bottom: 10px;
     position: relative;
+    font-size: 25px;
+
+
 }
 .form-control label{
     display: inline-block;
     margin-bottom: 5px;
+    font-size: 25px;
 }
 .form-control input{
     position: relative;
@@ -34,7 +38,7 @@ main{
     border-radius: 5px;
     margin-left: 20px;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bolder;
     padding: opx 10px;
 }
@@ -51,7 +55,12 @@ main{
     margin: 20px;
     width: 200px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     background: white;
     font-weight: bolder;
+}
+input {
+
+
+    
 }
