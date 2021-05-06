@@ -11,7 +11,6 @@ main{
     background: #F2F3F7;
     width: 50%;
     position: relative;
-    top:100px
 }
 
 .tester-img img{
@@ -45,6 +44,9 @@ main{
     font-size: 30px;
     line-height: 42px;
 }   
+.bio h2{
+    padding: 30px 0px;
+}
 .orders{
     display: flex;
     justify-content: space-between;
