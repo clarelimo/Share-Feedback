@@ -1,0 +1,78 @@
+main{
+    background-image: url("./images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+  
+}
+.wrapper{
+    overflow: hidden;
+    max-width: 390px;;
+    margin:  50px auto;
+    background: #3DB2C4;
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+.wrapper .title-text{
+    display: flex;
+    width: 200%;
+}
+.wrapper .title-text .title{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrapper .form-container{
+    width: 100%;
+    overflow: hidden;
+}
+.form-container .form-inner{
+    display: flex;
+    width: 200%;
+}
+.form-container .form-inner form{
+    width: 50%;
+}
+.form-control{
+    margin-left:20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    position: relative;
+    left: 20px;
+    line-height: 2.5;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: block;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: opx 10px;
+}
+.form-control select{
+    position: relative;
+    left: 20px;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 20px;
+    background: white;
+}
+.form-control button{
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    font-weight: bolder;
+}
