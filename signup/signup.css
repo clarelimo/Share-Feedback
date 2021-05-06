@@ -78,3 +78,17 @@ main{
     background: white;
     font-weight: bolder;
 }
+.form-control a{
+    padding: 30px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#account{
+    position: relative;
+    left: 40px;
+    display: block;
+    padding: 10px ;
+    margin: 5px;
+    width: 128px;
+}
