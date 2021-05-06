@@ -5,6 +5,7 @@ main{
     background-position: center;
     display: grid;
     place-items: center;
+    height: 85%;
   
 }
 .wrapper{
@@ -13,7 +14,8 @@ main{
     margin:  50px auto;
     background: #3DB2C4;
     border-radius: 5px;
-    padding: 30px 40px;
+    padding: 5px 40px;
+    
 }
 .wrapper .title-text{
     display: flex;
