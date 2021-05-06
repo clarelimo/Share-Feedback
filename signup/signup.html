@@ -54,8 +54,16 @@
                              <input type="text" name="specialty" id="specialty" placeholder="Enter your specialty">
                         </div>
                         <div class="form-control">
+                            <label>Account Type</label>
+                            <select id="account">
+                                <option value="tester">Tester</option>
+                                <option value="client">Client</option>
+                            </select>
+                       </div>
+                        </div>
+                        <div class="form-control">
                              <label>Gender</label>
-                             <select id="Gender">
+                             <select id="gender">
                                  <option value="f">Female</option>
                                  <option value="m">Male</option>
                              </select>
@@ -69,12 +77,6 @@
                                  <option value="books">Books and Magazines</option>
                                  <option value="clothes">Clothing and Footware</option>
                              </select>
-                        <label>Account Type</label>
-                             <select id="Client">
-                                 <option value="f">Tester</option>
-                                 <option value="m">Client</option>
-                             </select>
-                        </div>
                         <div class="form-control">
                              <button type="submit" id="clientbtn" onclick="login()">Submit</button>
                         </div>                 

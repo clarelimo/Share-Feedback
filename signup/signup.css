@@ -84,11 +84,12 @@ main{
     text-decoration: none;
     font-size: 20px;
 }
-#account{
+#account,#category,#gender{
     position: relative;
     left: 40px;
     display: block;
     padding: 10px ;
     margin: 5px;
-    width: 128px;
+    width: 200px;
+    
 }
