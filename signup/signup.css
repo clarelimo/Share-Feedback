@@ -1,102 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
+    background-image: url("./images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+main{
     height: 100vh;
 }
-header{
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    background: #C3E0EC;
+.tester{
+    width: 25%;
+    margin:  50px auto;
+    background: #3DB2C4;
+    border-radius: 20px;
+    padding: 30px 40px;
 }
-nav{
-    float: right;
-    line-height: 4;
-}
-nav a{
-    color: black;
-    text-align: center;
-    padding: 20px 30px;
-    text-decoration: none;
-    font-size: 24px;
+.form-control{
+    margin-left:20px;
     font-weight: bolder;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    position: relative;
 }
-nav a:hover{
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input{
+    position: relative;
+    left: 20px;
+    line-height: 2.5;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 20px;
+    display: block;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: opx 10px;
+}
+.form-control select{
+    position: relative;
+    left: 20px;
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0px 20px;
     background: white;
 }
-.logo img{
-    position: absolute;
-    width: 100px;
-    height: 90px;
-    left: 50px;
-    top: 4px;
-    border-radius: 50px;
+.form-control button{
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    font-weight: bolder;
 }
-
-/* Styling Login page*/
-.Log-in{
-    display: none;
-    width: 491px;
-    height: 736px;
-    top: 144px;
-    background-color: #3DB2C4;
-    border-radius: 20px;
-     
-}
-input {
-    outline: none;
-    display: block;
-    width: 20%;
-    border: 1px solid darken($white, 18%);
-    margin: 0 0 10px;
-    box-sizing: border-box;
-    font-weight: 400;
-    @include transition(.3s ease);
-    &:hover {
-      background: darken($accent, 15%);
-    
-}
-
-
-/* Styling sign up page*/
-.Create-account {
-    display: none;
-    width: 491px;
-    height: 736px;
-    top: 144px;
-    background-color: #3DB2C4;
-    border-radius: 20px;
-     
-}
-input {
-    outline: none;
-    display: block;
-    width: 20%;
-    border: 1px solid darken($white, 18%);
-    margin: 0 0 10px;
-    box-sizing: border-box;
-    font-weight: 400;
-    @include transition(.3s ease);
-    &:hover {
-      background: darken($accent, 15%);
-    
-}
-
-.footer{
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    padding: 40px;
-    margin-right: 100px;
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    left: 0px;
-    top: 900px;
-    background: #C3E0EC;
-}
-
