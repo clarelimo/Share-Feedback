@@ -14,6 +14,7 @@
 .description h1,.description h2{
     color: #3DB2C4;
     padding-bottom: 20px;
+    font-weight: 900;
 }
 .background img{
     width: 500px;
