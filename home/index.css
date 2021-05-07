@@ -7,11 +7,16 @@
 
 .description{
     text-align: center; 
+    font-size: 24px;
     margin: 50px auto; 
+    
 }
-
+.description h1,.description h2{
+    color: #3DB2C4;
+    padding-bottom: 20px;
+}
 .background img{
-    width: 450px;
+    width: 500px;
     height: 400px;   
 } 
 
@@ -20,8 +25,9 @@
     justify-content: space-around;
     margin: 100px auto;
     background-color: rgb(221, 221, 221);
-    border-radius: 10px;
     padding: 20px;
+    height: 300px;
+    font-size: 24px;
     
 }
 
