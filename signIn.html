@@ -23,42 +23,61 @@
         </nav>
     </header>
     <main>
-        <div class="wrapper">
-            <div class="title-text">
-                <div class="title client">Sign In</div>
-                <div class="title client">Client Form</div>
-                <div class="slide-tab"></div>
+        <div class="form">
+            <ul class="tab-group">
+                <li class="tab-active"><a href="#Signup">Sign Up</a></li>
+                <li class="tab"><a href="#login">Log In</a></li>
+            </ul>
+        <div class="tab-content">
+            <div id="signup">
+                <h1>Sign Up for Free</h1>
+                <form action="/" method="POST">
             </div>
-            <div class="form-container">
-                <div class="form-inner">
-                    <form action="./tester.html" class="tester">
-                        <span id="success"></span>
-                        <div class="form-control">
-                             <label>Name</label>
-                             <input type="text" id="uname" name="name" placeholder="Enter your Username">
-                        </div>
-                        <div class="form-control">
-                            <label>Password</label>
-                            <input type="password" name="testerpassword" id="testerpassword" placeholder="Enter your password" >
-                       </div>
-                        <div class="form-control">
-                            <label>Account Type</label>
-                            <select id="account">
-                                <option value="teste">Tester</option>
-                                <option value="client">Client</option>
-                            </select>
-                        </div>
-                        <div class="form-control">
-                        <div class="form-control">
-                            <button type="submit" id="clientbtn" onclick="login()">Sign In</button>    
-                        </div>     
-                        <div class="form-control">
-                            <a href="#"><b>Forgot Password?</b></a>
-                        </div>            
-                    </form>
+            <div  class="top-row">
+                <div class="field-wrap">
+                    <label>
+                        First Name<span class="req">*</span>
+                    </label>
+                    <input type="text" required autocomplete="off" />                
                 </div>
-            </div>           
-        </div> 
+                <div class="field-wrap">
+                    <label>
+                        Last Name<span class="req">*</span>
+                    </label>
+                    <input type="text" autocomplete="off" />
+                </div>
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Email Address<span class="req">*</span>
+                </label>
+                <input type="email" autocomplete="off" />
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Set A Password<span class="req">*</span>
+                </label> 
+                <input type="password" autocomplete="off" />
+            </div>
+            <button type="submit" class="button b-block"/>Get Started</button>
+            </form>
+        </div>
+        <div id="login">
+            <h1>Welcome Back!</h1>
+            <form action="/" method="POST">
+                <div class="field-wrap">
+                    <label>
+                        Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email" autocomplete="off"/>
+                </div>
+            
+        </div>
+
+            
+        </div><!-- Tab-content-div -->
+        </div><!-- /form-div -->
+
     </main>
     <footer>
         <div class="contact">
