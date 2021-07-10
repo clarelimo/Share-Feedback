@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="./signup/signup.css">
+    <link rel="stylesheet" href="./main.css">
     <script src="main.js"></script>
-    <title>Sign Up</title>
+    <title>Sign In</title>
 </head>
 <body>
     <header>
@@ -15,75 +15,78 @@
             <img src="./signup/images/logo.jpeg" alt="">
         </div>
         <nav>
-            <a href="./index.html">Home</a>
-            <a href="./aboutus.html">About</a>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About</a>
             <a href="contact.html">Contact Us</a>
-            <a href="./signup.html">SignUp</a>
-            <a href="./signIn.html">SignIn</a>
+            <a href="signup.html">SignUp</a>
+            <a href="signIn.html">SignIn</a>
         </nav>
     </header>
     <main>
-        <div class="wrapper">
-            <div class="title-text">
-                <div class="title client">Sign Up</div>
-                <div class="title client">Client Form</div>
-                <div class="slide-tab"></div>
+        <div class="form">
+            <ul class="tab-group">
+                <li class="tab-active"><a href="signup.html">Sign Up</a></li>
+                <li class="tab"><a href="signIn.html">Sign In</a></li>
+            </ul>
+        <div class="tab-content">
+            <div id="signup">
+                <h1>Sign Up for Free</h1>
+                <form action="/" method="POST">
             </div>
-            <div class="form-container">
-                <div class="form-inner">
-                    <form action="./signIn.html" class="tester">
-                        <span id="success"></span>
-                        <div class="form-control">
-                             <label>Name</label>
-                             <input type="text" id="uname" name="name" placeholder="Enter your name">
-                        </div>
-                        <div class="form-control">
-                            <label>Password</label>
-                            <input type="password" name="testerpassword" id="testerpassword" placeholder="Enter your password" >
-                       </div>
-                        <div class="form-control">
-                             <label>Age</label>
-                             <input type="number" name="age" id="age" placeholder="Enter your age">
-                        </div>
-                        <div class="form-control">
-                             <label>Location</label>
-                             <input type="text" name="location" id="location" placeholder="Enter your location">
-                        </div>
-                        <div class="form-control">
-                             <label>Specialty</label>
-                             <input type="text" name="specialty" id="specialty" placeholder="Enter your specialty">
-                        </div>
-                        <div class="form-control">
-                            <label>Account Type</label>
-                            <select id="account">
-                                <option value="tester">Tester</option>
-                                <option value="client">Client</option>
-                            </select>
-                       </div>
-                        </div>
-                        <div class="form-control">
-                             <label>Gender</label>
-                             <select id="gender">
-                                 <option value="f">Female</option>
-                                 <option value="m">Male</option>
-                             </select>
-                        </div>
-                        <div class="form-control">
-                         <label>Category</label>
-                             <select id="category">
-                                 <option value="technology">Technology</option>
-                                 <option value="cosmetics">Cosmetics and Toiletries</option>
-                                 <option value="food">Food and Drinks</option>
-                                 <option value="books">Books and Magazines</option>
-                                 <option value="clothes">Clothing and Footware</option>
-                             </select>
-                        <div class="form-control">
-                             <button type="submit" id="clientbtn" onclick="login()">Submit</button>
-                        </div>                 
-                    </form>
+            <div  class="top-row">
+                <div class="field-wrap">
+                    <label>
+                        First Name<span class="req">*</span>
+                    </label>
+                    <input type="text" required autocomplete="off" />                
                 </div>
-            </div>           
-        </div> 
+                <div class="field-wrap">
+                    <label>
+                        Last Name<span class="req">*</span>
+                    </label>
+                    <input type="text" autocomplete="off" />
+                </div>
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Email Address<span class="req">*</span>
+                </label>
+                <input type="email" autocomplete="off" />
+            </div>
+            <div class="field-wrap">
+                <label>
+                    Set A Password<span class="req">*</span>
+                </label> 
+                <input type="password" autocomplete="off" />
+            </div>
+            <button type="submit" class="button b-block"/>Get Started</button>
+            </form>
+        </div>
+        <div id="login">
+            <h1>Welcome Back!</h1>
+            <form action="/" method="POST">
+                <div class="field-wrap">
+                    <label>
+                        Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email" autocomplete="off"/>
+                </div>
+                <div class="field-wrap">
+                    <label>
+                        Password<span class="req">*</span>
+                    </label>
+                    <input type="password" autocomplete="off"/>
+
+                </div>
+            <p class="forgot"><a href="#">Forgot Password?</a></p>
+            <button class="button b-block"/>Log In</button>
+        </form>
+        </div>
+
+            
+        </div><!-- Tab-content-div -->
+        </div><!-- /form-div -->
+
     </main>
     <footer>
         <div class="contact">
